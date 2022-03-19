@@ -1,19 +1,25 @@
 import React from 'react';
+import { Button } from 'react-bootstrap';
+import './Body.css'
 
 const Body = () => {
     return (
-        <div>
+        <div className='container register'>
             <div className="row">
                     <div className="col-md-3 register-left">
                         <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
                         <h3>Welcome</h3>
-                        <p>You are 30 seconds away from earning your own money!</p>
-                        <input type="submit" name="" value="Login"/><br/>
+                        <hr />
+                        <h6 className='line-height'>Search by city, and get the perfect Weather</h6>
+                        <hr />
+                        <h6>Search City:</h6>
+                        <input type="text"/>
+                        <Button className="button" type="submit" >Search</Button><br/>
                     </div>
-                    <div classname="col-md-9 register-right">
-                        <div classname="ocean">
-                            <div classname="wave"></div>
-                            <div classname="wave"></div>
+                    <div className="col-md-9 register-right">
+                        <div className="ocean">
+                            <div className="wave"></div>
+                            <div className="wave"></div>
                         </div>
                     </div>
                 </div>
