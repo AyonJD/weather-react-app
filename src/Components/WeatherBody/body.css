@@ -22,22 +22,25 @@
     width: 60% !important;
     background-color: #f8f9fa !important;
     font-weight: bold !important;
-    color: #383d41 !important;
     margin-bottom: 3% !important;
-    cursor: pointer !important;
     margin-top: 10px;
 }
 input{
   box-shadow: -6px -6px 6px rgba(255, 255, 255, 0.2),
-                6px 6px 6px rgba(0, 0, 0, 0.1)
+                6px 6px 6px rgba(0, 0, 0, 0.1);
+}
+input::placeholder{
+  text-align: center;
+  font-size: 14px;
 }
 .button{
   box-shadow: -6px -6px 6px rgba(255, 255, 255, 0.2),
               6px 6px 6px rgba(0, 0, 0, 0.1);
-  color: #383d41 !important;
+  background: -webkit-linear-gradient(left, #3931af, #00c6ff) !important;
+  color: #fff !important;
 }
 .button:hover{
-  background: -webkit-linear-gradient(left, #3931af, #00c6ff) !important;
+  background: -webkit-linear-gradient(right, #3931af, #00c6ff) !important;
   color: #fff !important;
 }
 .register-right{
@@ -135,6 +138,7 @@ input{
     height: 198px;
     animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
     transform: translate3d(0, 0, 0);
+    border: none !important;
   }
   
   .wave:nth-of-type(2) {

@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
-*{
-  font-family: 'Raleway', sans-serif;
+h1, h2, h3, h4, h5, h5, p, .font{
+  font-family: 'Raleway', sans-serif !important;
 }
 .App {
   text-align: center;
